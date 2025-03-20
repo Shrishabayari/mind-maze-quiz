@@ -9,8 +9,8 @@ import CodeSnippet1 from '../../assets/images/code-snippet-1.png'
 export const react: Topic = {
   topic: 'React',
   level: 'Intermediate',
-  totalQuestions: 11,
-  totalScore: 95,
+  totalQuestions: 15,
+  totalScore: 150,
   totalTime: 600,
   questions: [
     {
@@ -28,13 +28,6 @@ export const react: Topic = {
       score: 10,
     },
     {
-      question: 'React components must always return a single JSX element.',
-      choices: ['True', 'False'],
-      type: 'boolean',
-      correctAnswers: ['True'],
-      score: 5,
-    },
-    {
       question: 'What is the purpose of React components?',
       choices: [
         'To handle HTTP requests and fetch data from APIs',
@@ -47,8 +40,7 @@ export const react: Topic = {
       score: 10,
     },
     {
-      question:
-        'Which of the following are valid React lifecycle methods? (Select all that apply)',
+      question: 'Which of the following are valid React lifecycle methods? (Select all that apply)',
       choices: [
         'componentWillMount',
         'componentDidMount',
@@ -89,12 +81,11 @@ export default App;`,
       score: 10,
     },
     {
-      question:
-        'In React, props are used to pass data from parent components to child components.',
+      question: 'In React, props are used to pass data from parent components to child components.',
       choices: ['True', 'False'],
       type: 'boolean',
       correctAnswers: ['True'],
-      score: 5,
+      score: 10,
     },
     {
       question: 'What is the output of the following code snippet?',
@@ -105,8 +96,7 @@ export default App;`,
       score: 10,
     },
     {
-      question:
-        'Which of the following are valid ways to conditionally render content in React? (Select all that apply)',
+      question: 'Which of the following are valid ways to conditionally render content in React? (Select all that apply)',
       choices: [
         'Using the if-else statement',
         'Using the ternary operator',
@@ -169,7 +159,57 @@ export default App;`,
       choices: ['True', 'False'],
       type: 'boolean',
       correctAnswers: ['True'],
-      score: 5,
+      score: 10,
+    },
+    {
+      question: 'What is the purpose of useEffect in React?',
+      choices: [
+        'To manage component state',
+        'To fetch data and perform side effects',
+        'To create reusable components',
+        'To define styles in React components',
+      ],
+      type: 'MCQs',
+      correctAnswers: ['To fetch data and perform side effects'],
+      score: 10,
+    },
+    {
+      question: 'Which hook is used to manage state in functional components?',
+      choices: ['useEffect', 'useState', 'useReducer', 'useRef'],
+      type: 'MCQs',
+      correctAnswers: ['useState'],
+      score: 10,
+    },
+    {
+      question: 'What is the purpose of React Context API?',
+      choices: [
+        'To manage component state',
+        'To share state between components without passing props manually',
+        'To improve performance of React applications',
+        'To create animations in React components',
+      ],
+      type: 'MCQs',
+      correctAnswers: ['To share state between components without passing props manually'],
+      score: 10,
+    },
+    {
+      question: 'Which React hook is used to access the previous state or value?',
+      choices: ['useState', 'useEffect', 'useRef', 'useMemo'],
+      type: 'MCQs',
+      correctAnswers: ['useRef'],
+      score: 10,
+    },
+    {
+      question: 'Which lifecycle method is invoked immediately after a component is inserted into the DOM?',
+      choices: [
+        'componentDidMount',
+        'componentDidUpdate',
+        'componentWillUnmount',
+        'shouldComponentUpdate',
+      ],
+      type: 'MCQs',
+      correctAnswers: ['componentDidMount'],
+      score: 10,
     },
   ],
-}
+};

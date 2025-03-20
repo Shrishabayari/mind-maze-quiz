@@ -14,10 +14,71 @@ import Reptile from '../../assets/images/reptile.jpg'
 export const generalKnowledge: Topic = {
   topic: 'GeneralKnowledge',
   level: 'Beginner',
-  totalQuestions: 6,
-  totalScore: 60,
-  totalTime: 60,
+  totalQuestions: 15,
+  totalScore: 150,
+  totalTime: 600,
   questions: [
+    {
+      question: 'Who was the first Prime Minister of India?',
+      choices: [
+        'Mahatma Gandhi',
+        'Sardar Vallabhbhai Patel',
+        'Jawaharlal Nehru',
+        'Dr. B.R. Ambedkar',
+      ],
+      type: 'MCQs',
+      correctAnswers: ['Jawaharlal Nehru'],
+      score: 10,
+    },
+    {
+      question: 'Which city is known as the Silicon Valley of India?',
+      choices: ['Hyderabad', 'Bengaluru', 'Pune', 'Chennai'],
+      type: 'MCQs',
+      correctAnswers: ['Bengaluru'],
+      score: 10,
+    },
+    {
+      question: 'Which is the national bird of India?',
+      choices: ['Peacock', 'Sparrow', 'Kingfisher', 'Eagle'],
+      type: 'MCQs',
+      correctAnswers: ['Peacock'],
+      score: 10,
+    },
+    {
+      question: 'Which Indian state is famous for its tea gardens?',
+      choices: ['Kerala', 'Assam', 'Punjab', 'West Bengal'],
+      type: 'MCQs',
+      correctAnswers: ['Assam'],
+      score: 10,
+    },
+    {
+      question: 'Which Indian river is also known as the "Sorrow of Bihar"?',
+      choices: ['Ganga', 'Yamuna', 'Kosi', 'Godavari'],
+      type: 'MCQs',
+      correctAnswers: ['Kosi'],
+      score: 10,
+    },
+    {
+      question: 'Which festival is known as the Festival of Lights in India?',
+      choices: ['Holi', 'Diwali', 'Eid', 'Navratri'],
+      type: 'MCQs',
+      correctAnswers: ['Diwali'],
+      score: 10,
+    },
+    {
+      question: 'Which city is known as the financial capital of India?',
+      choices: ['New Delhi', 'Mumbai', 'Kolkata', 'Bangalore'],
+      type: 'MCQs',
+      correctAnswers: ['Mumbai'],
+      score: 10,
+    },
+    {
+      question: 'Which monument is known as the symbol of love in India?',
+      choices: ['India Gate', 'Qutub Minar', 'Taj Mahal', 'Gateway of India'],
+      type: 'MCQs',
+      correctAnswers: ['Taj Mahal'],
+      score: 10,
+    },
     {
       question: 'What is the name of this reptile?',
       image: Reptile,
@@ -67,10 +128,17 @@ export const generalKnowledge: Topic = {
         'Taj Mahal, India',
         'Blue Mosque, Turkey',
       ],
-
       type: 'MCQs',
       correctAnswers: ['Faisal Mosque, Islamabad'],
       score: 10,
     },
+    {
+      question: 'Which is the largest state in India by area?',
+      choices: ['Maharashtra', 'Uttar Pradesh', 'Rajasthan', 'Madhya Pradesh'],
+      type: 'MCQs',
+      correctAnswers: ['Rajasthan'],
+      score: 10,
+    },
+    
   ],
 }
