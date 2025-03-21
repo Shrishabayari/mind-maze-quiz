@@ -10,7 +10,7 @@ const AnswerStyle = styled.div<{ highlightAnswer: boolean }>`
     ${({ highlightAnswer, theme }) =>
       highlightAnswer ? `${theme.colors.themeColor}` : `${theme.colors.border}`};
   background-color: ${({ highlightAnswer, theme }) =>
-    highlightAnswer ? `${theme.colors.selectedAnswer}` : `${theme.colors.answerBg}`};
+    highlightAnswe ? `${theme.colors.selectedAnswer}` : `${theme.colors.answerBg}`};
   border-radius: 16px;
   margin-top: clamp(13px, calc(10px + 6 * ((100vw - 600px) / 1320)), 16px);
   cursor: pointer;
