@@ -31,4 +31,4 @@ function Main() {
   return <>{ComponentToRender}</>
 }
 
-export default 
+export default main()
