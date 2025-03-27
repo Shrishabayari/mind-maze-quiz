@@ -15,7 +15,7 @@ function Main() {
   useEffect(() => {
     setTimeout(() => {
       setCurrentScreen(ScreenTypes.QuizTopicsScreen)
-    }, 10)
+    }, 1000)
   }, [setCurrentScreen])
 
   const screenComponents = {
