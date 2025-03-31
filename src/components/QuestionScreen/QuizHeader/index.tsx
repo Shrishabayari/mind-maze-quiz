@@ -13,7 +13,7 @@ const ActiveQuestionNo = styled.span`
 `
 
 const TotalQuestionNo = styled.span`
-  font-size: clamp(20px, 5vw, 30px);
+  font-size: clamp(10px, 5vw, 30px);
   font-weight: 500;
   color: ${({ theme }) => theme.colors.darkerGray};
 `
