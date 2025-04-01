@@ -9,7 +9,7 @@ interface RightAnswerProps {
 }
 
 const RightAnswerContainer = styled.p`
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 400;
   color: ${({ theme }) => theme.colors.darkerGray};
   margin-top: 15px;
