@@ -24,7 +24,7 @@ const Heading = styled.h2`
 const DetailText = styled.p`
   font-weight: 500;
   font-size: 20px;
-  line-height: 29px;
+  line-height: 28px;
   text-align: center;
 `
 
