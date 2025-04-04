@@ -15,7 +15,7 @@ import { ScreenTypes } from '../../types'
 import Button from '../ui/Button'
 
 const Heading = styled.h2`
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   margin-bottom: 20px;
   text-align: center;
