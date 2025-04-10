@@ -21,9 +21,9 @@ const SplashScreen = () => {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth < 900) {
-        setLogoSize('240px')
+        setLogoSize('250px')
       } else {
-        setLogoSize('350px')
+        setLogoSize('340px')
       }
     }
 
